@@ -11,6 +11,14 @@ Hands-on Linux administration project for DevOps and Cloud Engineering.
 - Git
 - GitHub
 
+
+## Linux commands learned 
+- pwd
+- ls
+- cd
+- mkdir
+- touch
+- chmod 
 ## Project Structure
 
 - commands.md
