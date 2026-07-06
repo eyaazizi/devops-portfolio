@@ -4,13 +4,19 @@ services:
     container_name: nginx-compose
     networks:
     - devops-network
-
+    volumes:
+    - devops-data:/data
   ubuntu:
     image: ubuntu
     container_name: ubuntu-compose
     command: sleep infinity
+    volumes:
+    - devops-data:/data
     networks:
       - devops-network
+
+volumes:
+  devops-data:
 
 networks:
   devops-network:
